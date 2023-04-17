@@ -18,8 +18,8 @@ body{
   background: #bb0064;
 }
 .wrapper{
-  width: 380px;
-  padding: 40px 30px 50px 30px;
+  width: 352px;
+  padding: 34px 20px 34px 20px;
   background: #fff;
   border-radius: 5px;
   text-align: center;
@@ -158,8 +158,10 @@ form input[type="submit"]:hover{
   }
   
   img {
+    border-radius: 5px;
     width: 100%;
     height: auto;
+    border: solid 5px #bfbfbf;
     background-color: lightgrey;
   }
 
@@ -169,7 +171,8 @@ form input[type="submit"]:hover{
     outline: none;
     font-size: 16px;
     cursor: pointer;
-    padding: 13px 22px;
+    padding: 13px 24px 17px;
+    margin: 5px auto;
     border-radius: 10px;
     background: #f02128;
   }
